@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153537568-1"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="js/index.js" data-rel-js></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-153537568-1');
+    </script>
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SurfSMS - Daily Surf Reports sent via SMS</title>
+    <meta name="description"
+        content="Daily Surf Reports Straight To Your Phone - Get the National Oceanic and Atmospheric Administration (NOAA) Surf Report straight from the National Weather Service Twice daily via SMS from your local county surf break. Sign up now!">
+    <link rel="canonical" href="https://surfsms.com" />
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <!-- CSS for each example: -->
+    <link rel="stylesheet" type="text/css" href="css/example1.css" />
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"><i class="fas fa-bars"></i></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pricing">pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#faqs">FAQs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="single_product">
+
+                                </div>
+                            </div> -->
+                </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h1>Daily Surf Reports
+                                Straight to your Phone</h1>
+                            <p>Get the National Oceanic and Atmospheric Administration (NOAA) Surf Report straight from
+                                the National Weather Service Twice daily via SMS from your local county break including
+                                next day forecasts.</p>
+                            <a href="#faqs" class="btn_2 banner_btn_1">Learn More </a>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn_2 banner_btn_2">Sign
+                                up Now $</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="banner_img d-none d-lg-block">
+                        <img src="img/banner_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part start-->
+
+
+
+
+    <br>
+    <br>
+    <!-- use sasu part end-->
+    <section class="use_sasu">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section_tittle text-center">
+                        <a name="features"></a>
+                        <h2>What breaks are supported?</h2>
+                        <p>Starting with Los Angeles County. Coming soon: Ventura, Santa Barbara, San Luis Obispo,
+                            Orange County and San Diego County. NorCal, Pac NW, East Coast and Hawaii are all on our
+                            roadmap. If you want SurfSMS for your local break, reach out and we will get it
+                            added.<br><br> ** Sample Data Below ** </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <img src="img/wave1.png" class="icons2" alt="">
+                            <h4>Wave Height</h4>
+                            <p>Surf : 2-4 FT <br>
+                                Rip : Moderate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <img src="img/water1.png" class="icons2" alt="">
+                            <h4>Water Temps</h4>
+                            <p>Water : 62-65 degrees<br>
+                                Lightning - None expected</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <img src="img/tide1.png" class="icons2" alt="">
+                            <h4>Tides & more</h4>
+                            <p>High: 6.4FT @ 07:02 AM <br>
+                                Low: -0.4FT @ 01:45 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/animate_icon/Shape-14.png" alt="" class="feature_icon_1">
+        <img src="img/animate_icon/Shape-10.png" alt="" class="feature_icon_2">
+        <img src="img/animate_icon/Shape.png" alt="" class="feature_icon_3">
+        <img src="img/animate_icon/shape-13.png" alt="" class="feature_icon_4">
+    </section>
+    <!-- use sasu part end-->
+
+    <br>
+    <br>
+    <br>
+
+    <!-- pricing part start-->
+    <section class="pricing_part mb_130 home_page_pricing">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_tittle text-center">
+                        <a name="pricing"></a>
+                        <h2>Simple Pricing</h2>
+                        <p>We send you the surf report every day, 2 times a day via SMS, you pay us a few bucks to keep
+                            our servers running.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_pricing_part">
+                        <img src="img/wave_icon.png" alt="">
+                        <p>The Local</p>
+                        <h3>$5.00<span>/ mo</span></h3>
+                        <ul>
+                            <li>Los Angeles County</li>
+                            <li>Wave Height + Water Temp</li>
+                            <li>Tides & more</li>
+                            <li>Two times a day, everyday</li>
+                            <li>Next Day Forecasts included</li>
+                            <li>Sent via SMS</li>
+                            <li>Easy to Cancel Anytime</li>
+                        </ul>
+                        <a href="#" class="btn_1">Sign up Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="img/left_sharp.png" alt="" class="left_shape_1">
+        <img src="img/animate_icon/Shape-1.png" alt="" class="feature_icon_1">
+        <img src="img/animate_icon/shape.png" alt="" class="feature_icon_4">
+    </section>
+    <!-- pricing part end-->
+
+    <!-- cta part start-->
+    <section class="cta_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <div class="cta_text text-center">
+                        <a name="faqs"></a>
+                        <h2>Frequently Asked Questions</h2>
+
+                        <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <symbol viewBox="0 0 24 24" id="expand-more">
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </symbol>
+                                <symbol viewBox="0 0 24 24" id="close">
+                                    <path
+                                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </symbol>
+                            </svg>
+                        </div>
+
+                        <details>
+                            <summary>
+                                What is SurfSMS?
+
+                            </summary>
+                            <p>SurfSMS is a SMS texting service that sends you the surf report directly from NOAA and
+                                the National Weather Service, two times a day (that's how often they update it).</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                How does it work?
+                            </summary>
+                            <p>Signup with your credit card on SurfSMS.com and recieve the surf report in your SMS
+                                messages twice daily.</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                What does a sample SurfSMS text message look like?
+                            </summary>
+                            <p>LACC<br>
+                                2:09 AM PST Sun Nov 24 2019<br>
+                                Surf: 2-4 FT<br>
+                                Rip: Moderate*<br>
+                                Water: 62-65 degrees<br>
+                                Lightning - None expected<br>
+                                Tide<br>
+                                Low: 0.7FT@12:39AM<br>
+                                High: 6.4FT@07:02AM<br>
+                                Low: -0.4FT@01:45PM<br>
+                                High: 4.6FT@07:52PM<br>
+                                Remarks...West swell<br>
+                                +PLUS...The Next Day Forecast</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                How much does it cost?
+                            </summary>
+                            <p>$5 a month. That's it for 120+ Real Time Surf Reports a month (2 x a day + the next day
+                                forecasts)</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                Why is the information by county only?
+                            </summary>
+                            <p>That's how NOAA delivers it. Other surf reports are not NOAA based.</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                What is the the LOLA report then?
+                            </summary>
+                            <p>LOLA is Surfline's proprietary model and based on where I surf, its not very accurate.
+                                That is why SurfSMS only delivers you surf reports directly from the National Weather
+                                Service's Oceanic department called NOAA.</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                How do I signup?
+                            </summary>
+                            <p>Signup on SurfSMS.com with an active credit card.</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                When will I recieve SurfSMS reports?
+                            </summary>
+                            <p>As soon as NOAA makes their next update, you will recieve it via SMS. Currently NOAA
+                                updates come in around 2-3 am and 2-3 pm daily, subject to change any time.</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                What if I want an additional location, or multiple locations?
+                            </summary>
+                            <p>All of these features are coming soon, but please send us a note, so we know you are out
+                                there and where you surf.</p>
+                        </details>
+
+                        <details>
+                            <summary>
+                                How do I cancel?
+                            </summary>
+                            <p>Send us a quick email at yo@surfsms.com letting us know you want to cancel. That's it!
+                            </p>
+                        </details>
+
+
+
+                        <br>
+
+
+                        <a href="#" class="btn_2 banner_btn_2">Sign up Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cta part end-->
+
+    <!--::footer_part start::-->
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_footer_part">
+                        <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#"> </a>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_footer_part">
+                        <a name="contact"></a>
+                        <h4>Surf Spots</h4>
+                        <p>Los Angeles County</p>
+                        <p>Coming Soon:</p>
+                        <p>Ventura, Santa Barbara and San Luis Obispo County</p>
+                        <p>Orange County and San Diego County</p>
+                        <p>Pacific North West</p>
+                        <p>East Coast and Florida</p>
+                        <p>Hawaii and more</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_footer_part">
+                        <a name="about"></a>
+                        <h4>About Us</h4>
+                        <p>Made with love in LA, born out of a personal need. Please help support our site and signup.
+                            No one is getting rich here, just better waves for all!
+                        </p>
+                        <p>Phone : +1-626-469-SURF (7873)</p>
+                        <p>Email : yo@surfsms.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_footer_part">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet"
+                            type="text/css">
+                        <style type="text/css">
+                            #mc_embed_signup {
+                                background: #fff;
+                                clear: left;
+                                font: 14px Helvetica, Arial, sans-serif;
+                                width: 280px;
+                            }
+
+                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                            <form
+                                action="https://surfsms.us4.list-manage.com/subscribe/post?u=b8dd6f07e15092a2ce0d7ca3f&amp;id=65241795d1"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <h4>Not ready to sign up, join our mailing list!</h4>
+                                    <p>Get updates on new locations and product features!
+                                    </p>
+
+                                    <div class="mc-field-group">
+
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            placeholder="email">
+                                    </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                            type="text" name="b_b8dd6f07e15092a2ce0d7ca3f_65241795d1" tabindex="-1"
+                                            value=""></div>
+                                    <div class="clear"><br><input type="submit" value="Subscribe" name="subscribe"
+                                            id="mc-embedded-subscribe" class="button"></div>
+                                </div>
+                            </form>
+                        </div>
+                        <script type='text/javascript'
+                            src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                        <script type='text/javascript'>
+                            (function ($) {
+                                window.fnames = new Array();
+                                window.ftypes = new Array();
+                                fnames[0] = 'EMAIL';
+                                ftypes[0] = 'email';
+                                fnames[1] = 'FNAME';
+                                ftypes[1] = 'text';
+                                fnames[2] = 'LNAME';
+                                ftypes[2] = 'text';
+                                fnames[3] = 'ADDRESS';
+                                ftypes[3] = 'address';
+                                fnames[4] = 'PHONE';
+                                ftypes[4] = 'phone';
+                                fnames[5] = 'BIRTHDAY';
+                                ftypes[5] = 'birthday';
+                            }(jQuery));
+                            var $mcj = jQuery.noConflict(true);
+                        </script>
+                        <!--End mc_embed_signup-->
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="copyright_text">
+                        <P>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This site is made with <i class="ti-heart"
+                                aria-hidden="true"></i> by a surfer! </a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </P>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_icon social_icon">
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.instagram.com/surfsms_com/" class="single_social_icon"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="privacy.html" class="single_social_icon">Privacy Policy</a></li>
+                            <li><a href="tos.html" class="single_social_icon"></i>TOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--::footer_part end::-->
+
+
+
+    <div class="modal fade fade bd-example-modal-lg " id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title">Surf SMS Subscription</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                <div class="modal-body ">
+                    <div class="globalContent">
+                        <main>
+                            <section class="container-lg">
+                                <div class="cell example example1" id="example-1">
+                                    <form>
+                                        <fieldset>
+                                            <div class="row">
+                                                <label for="example1-name"
+                                                    data-tid="elements_examples.form.name_label">Name</label>
+                                                <input id="example1-name"
+                                                    data-tid="elements_examples.form.name_placeholder" type="text"
+                                                    placeholder="Jane Doe" required="" autocomplete="name">
+                                            </div>
+                                            <div class="row">
+                                                <label for="example1-email"
+                                                    data-tid="elements_examples.form.email_label">Email</label>
+                                                <input id="example1-email"
+                                                    data-tid="elements_examples.form.email_placeholder" type="email"
+                                                    placeholder="janedoe@gmail.com" required="" autocomplete="email">
+                                            </div>
+                                            <div class="row">
+                                                <label for="example1-phone"
+                                                    data-tid="elements_examples.form.phone_label">Phone</label>
+                                                <input id="example1-phone"
+                                                    data-tid="elements_examples.form.phone_placeholder" type="tel"
+                                                    placeholder="(941) 555-0123" required="" autocomplete="tel">
+                                            </div>
+                                            <div class="row">
+                                                <label for="example1-location"
+                                                    data-tid="elements_examples.form.location_label">Location</label>                                      
+                                                <input id="example1-location" data-tid="elements_examples.form.location_placeholder" value="LACC" type="text" placeholder="LACC" required="" autocomplete="location" readonly>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
+                                            <div class="row">
+                                                <div id="example1-card"></div>
+                                            </div>
+                                        </fieldset>
+                                        <button type="submit" data-tid="elements_examples.form.pay_button">Pay
+                                            $25</button>
+                                        <div class="error" role="alert"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="17" height="17" viewBox="0 0 17 17">
+                                                <path class="base" fill="#000"
+                                                    d="M8.5,17 C3.80557963,17 0,13.1944204 0,8.5 C0,3.80557963 3.80557963,0 8.5,0 C13.1944204,0 17,3.80557963 17,8.5 C17,13.1944204 13.1944204,17 8.5,17 Z">
+                                                </path>
+                                                <path class="glyph" fill="#FFF"
+                                                    d="M8.5,7.29791847 L6.12604076,4.92395924 C5.79409512,4.59201359 5.25590488,4.59201359 4.92395924,4.92395924 C4.59201359,5.25590488 4.59201359,5.79409512 4.92395924,6.12604076 L7.29791847,8.5 L4.92395924,10.8739592 C4.59201359,11.2059049 4.59201359,11.7440951 4.92395924,12.0760408 C5.25590488,12.4079864 5.79409512,12.4079864 6.12604076,12.0760408 L8.5,9.70208153 L10.8739592,12.0760408 C11.2059049,12.4079864 11.7440951,12.4079864 12.0760408,12.0760408 C12.4079864,11.7440951 12.4079864,11.2059049 12.0760408,10.8739592 L9.70208153,8.5 L12.0760408,6.12604076 C12.4079864,5.79409512 12.4079864,5.25590488 12.0760408,4.92395924 C11.7440951,4.59201359 11.2059049,4.59201359 10.8739592,4.92395924 L8.5,7.29791847 L8.5,7.29791847 Z">
+                                                </path>
+                                            </svg>
+                                            <span class="message"></span></div>
+                                    </form>
+                                    <div class="success">
+                                        <div class="icon">
+                                            <svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle class="border" cx="42" cy="42" r="40" stroke-linecap="round"
+                                                    stroke-width="4" stroke="#000" fill="none"></circle>
+                                                <path class="checkmark" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M23.375 42.5488281 36.8840688 56.0578969 64.891932 28.0500338"
+                                                    stroke-width="4" stroke="#000" fill="none"></path>
+                                            </svg>
+                                        </div>
+                                        <h3 class="title" data-tid="elements_examples.success.title">Payment successful
+                                        </h3>
+                                        <p class="message"><span data-tid="elements_examples.success.message">Thanks for
+                                                trying Stripe Elements. No money was charged, but we generated a token:
+                                            </span><span class="token">tok_189gMN2eZvKYlo2CwTBv9KKh</span></p>
+                                        <a class="reset" href="#">
+                                            <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <path fill="#000000"
+                                                    d="M15,7.05492878 C10.5000495,7.55237307 7,11.3674463 7,16 C7,20.9705627 11.0294373,25 16,25 C20.9705627,25 25,20.9705627 25,16 C25,15.3627484 24.4834055,14.8461538 23.8461538,14.8461538 C23.2089022,14.8461538 22.6923077,15.3627484 22.6923077,16 C22.6923077,19.6960595 19.6960595,22.6923077 16,22.6923077 C12.3039405,22.6923077 9.30769231,19.6960595 9.30769231,16 C9.30769231,12.3039405 12.3039405,9.30769231 16,9.30769231 L16,12.0841673 C16,12.1800431 16.0275652,12.2738974 16.0794108,12.354546 C16.2287368,12.5868311 16.5380938,12.6540826 16.7703788,12.5047565 L22.3457501,8.92058924 L22.3457501,8.92058924 C22.4060014,8.88185624 22.4572275,8.83063012 22.4959605,8.7703788 C22.6452866,8.53809377 22.5780351,8.22873685 22.3457501,8.07941076 L22.3457501,8.07941076 L16.7703788,4.49524351 C16.6897301,4.44339794 16.5958758,4.41583275 16.5,4.41583275 C16.2238576,4.41583275 16,4.63969037 16,4.91583275 L16,7 L15,7 L15,7.05492878 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                            </section>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script src="js/example1.js" data-rel-js></script>
+
+
+</body>
+
+</html>
