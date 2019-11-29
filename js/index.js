@@ -98,8 +98,6 @@ function registerElements(elements, exampleName) {
 
     // Disable all inputs.
     disableInputs();
-    console.log(form)
-    console.log(exampleName)
     // Gather additional customer data we may have collected in our form.
     var name = form.querySelector('#' + exampleName + '-name');
     var email = form.querySelector('#' + exampleName + '-email');
@@ -111,13 +109,29 @@ function registerElements(elements, exampleName) {
       tel: tel ? tel.value : undefined,
       location: location ? location.value : undefined,
     };
-    console.log(additionalData)
     // Use Stripe.js to create a token. We only need to pass in one Element
     // from the Element group in order to create a token. We can also pass
     // in the additional customer data we collected in our form.
     stripe.createToken(elements[0], additionalData).then(function(result) {
       // Stop loading!
-      console.log(result)
+      
+      let merged = {...result.token, ...additionalData};
+      fetch("http://localhost:8000/charge", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(merged)
+      })
+      .then(response => {
+        if (!response.ok)
+          throw response;
+        return response.json();
+      })
+      .then(output => {
+        console.log("Purchase succeeded:", output);
+      })
+      .catch(err => {
+        console.log("Purchase failed:", err);
+      })
       example.classList.remove('submitting');
 
       if (result.token) {
